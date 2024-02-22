@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>BA-ARROW_DIFF_SIZES-10.ico</ApplicationIcon>
+    <PackageIcon>BA-ARROW_DIFF_SIZES-10.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="BA-ARROW_DIFF_SIZES-10.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Ccall\Downloads\BA-ARROW_DIFF_SIZES-10.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
